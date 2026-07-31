@@ -1,6 +1,6 @@
 # Skills for All
 
-Colección pública de Skills para Claude, compartidas con la comunidad de Infinitix Group.
+Colección pública de Skills para Claude, compartidas por Alvaro Barrios con la comunidad de Infinitix Group.
 
 Cada carpeta es una skill independiente con su `SKILL.md` (instrucciones que Claude consulta
 automáticamente) y, cuando aplica, sus `scripts/` de soporte.
