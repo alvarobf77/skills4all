@@ -5,7 +5,7 @@ description: Genera LUTs 3D (.cube) con estilo pastel/cinematográfico limpio pa
 
 # LUT Cinemático Pastel
 
-> 📦 ¿Solo quieres instalarla? Ve directo a [`INSTALL.md`](./INSTALL.md) — Claude.ai, Claude Code o cualquier otro IDE.
+> 📦 ¿Solo quieres instalarla o ver ejemplos de uso? Ve directo a [`README.md`](./README.md).
 
 Genera LUTs 3D (formato `.cube`, tamaño 33×33×33 por defecto = 35,937 entradas) con un look
 pastel/cinematográfico limpio: negros levantados, luces comprimidas con rolloff suave,

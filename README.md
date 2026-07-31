@@ -5,6 +5,19 @@ Colección pública de Skills para Claude, compartidas con la comunidad de Infin
 Cada carpeta es una skill independiente con su `SKILL.md` (instrucciones que Claude consulta
 automáticamente) y, cuando aplica, sus `scripts/` de soporte.
 
+## Estructura de cada skill
+
+Para mantener todo homogéneo y fácil de usar por cualquiera, cada skill de este repo sigue
+la misma estructura:
+
+```
+nombre-skill/
+├── README.md   ← documentación completa: qué hace, cómo funciona, instalación, uso,
+│                 opciones, requisitos, licencia (léelo primero)
+├── SKILL.md    ← instrucciones que Claude consulta automáticamente al activarse
+└── scripts/    ← código de soporte, si aplica
+```
+
 ## Cómo instalar una skill (rápido)
 
 - **Claude.ai** (web/escritorio/móvil): comprime la carpeta de la skill en `.zip` → perfil →
@@ -14,11 +27,11 @@ automáticamente) y, cuando aplica, sus `scripts/` de soporte.
 - **Otros IDEs** (Cursor, Windsurf, Antigravity, etc.): no leen el formato `SKILL.md` de
   forma nativa — copia y pega su contenido en el chat del asistente como instrucciones.
 
-Cada skill trae su propia guía detallada en `INSTALL.md` dentro de su carpeta —
-revísala si algo no queda claro.
+Cada skill trae su propio `README.md` con la guía detallada — revísalo si algo no queda
+claro.
 
 ## Skills disponibles
 
-| Skill | Descripción | Instalación |
+| Skill | Descripción | Documentación |
 |---|---|---|
-| [`lut-cinematico`](./lut-cinematico) | Genera LUTs 3D `.cube` con look pastel/cinematográfico limpio para video (YouTube, Premiere, DaVinci, FCPX, OBS). | [Guía](./lut-cinematico/INSTALL.md) |
+| [`lut-cinematico`](./lut-cinematico) | Genera LUTs 3D `.cube` con look pastel/cinematográfico limpio para video (YouTube, Premiere, DaVinci, FCPX, OBS). | [README](./lut-cinematico/README.md) |
